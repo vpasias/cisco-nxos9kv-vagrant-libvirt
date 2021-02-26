@@ -5,7 +5,7 @@
   vars:
     - disk_image_name: cisco-nxosv.qcow2
     - domain_name: cisco-nxosv
-    - expect_script: cisco_nxos_base_conf.exp
+    - expect_script: cisco_nexus9x00v_base_conf.exp
 
   tasks:
     - name: "verify the {{ disk_image_name }} file is available"
